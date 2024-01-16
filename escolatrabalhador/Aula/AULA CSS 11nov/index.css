@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,500;1,700&display=swap');
+
+p{
+    font-family: 'Roboto', sans-serif;/*Familia de fontes*/
+    font-style: normal; /*Oblique, italic,  normal*/
+    font-weight: bolder;/* peso da fonte, de 100 a 900, bold, bolder*/
+    color:rgb(255, 196, 196);
+    font-size: 20px/*px, %, en*/;
+    font-variant: normal;/*normal, small-caps, initial,*/
+
+    /*shorthand
+    font: style variant weight size family;*/
+
+   /* font: normal normal bolder 20px 'Roboto',;*/
+   /*Alinhamento*/
+   text-align: justify;/* center, laft, right, justify*/
+   text-indent: 40px;
+
+
+
+    
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;/*Familia de fontes */
+}

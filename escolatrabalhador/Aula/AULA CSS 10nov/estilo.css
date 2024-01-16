@@ -1,0 +1,104 @@
+h1{
+    color:blueviolet
+/*sombra de texto*/
+
+text-shadow:green;
+/*horizontal,vertical
+desfoque cor*/
+
+}
+
+/* Selecionando por tag*/
+
+
+p{color:rgba(72, 102, 3, 0.582);}
+
+/*Selecionando pelo ID= #nomedoid*/
+/* Id= #*/
+
+#para2{color:rgb(7, 57, 114)}
+
+/* Selecionando por Classe- .nomedaclasse*/
+
+.para3{color:black}
+
+.para3{color:#836FFF}
+/* cor em hexadecimal */
+
+body{
+    background-color:rgba(212, 198, 178, 0.986);
+    background-image: url(pexels-cottonbro-studio-girl.jpg);
+    background-size: 500px 600px;
+    /* Horizontal / vertical (x / y)*/
+    background-repeat: no-repeat;
+    /*repeate, no-repeat, repeat-x, repeat-y*/
+
+    background-position: center ;/*(left right) (top bottom), center (x = horizontal, (y = vertical)*/
+
+    background-attachment: fixed; /* scrool, fixed*/
+
+    
+
+    background:rgba(212, 198, 178, 0.986)
+    url(pexels-cottonbro-studio-girl.jpg)
+    no-repeat fixed center;background-size: 500px 600px;/* background-size: não entra na SHORTHAND*/
+
+    /* shorthand
+    background: color image repeat attachment position */
+} 
+
+a{
+    color: rgb(148, 16, 16);
+
+}
+
+a:hover{
+    background-color: aliceblue;
+    color:black
+}
+
+a:visited{
+    color: purple
+}
+
+a:active{
+    color:red
+}
+
+a{
+    text-decoration-line: underline;
+    /* Decoração de Texto*/
+    /*none, overline, underline, line-through*/
+    text-decoration-color: beige;
+    text-decoration-style: dotted;/*solid, double, dotted, dashed*/
+    text-decoration-thickness: 5px;/*espessura da linha*/
+
+    text-decoration: underline red dashed 5px ; 
+    /*shorthand
+    text-decoration: line color style thickness*/
+}
+
+  p{  /*Transformação de texto*/
+
+   
+        text-transform:capitalize; /*uppercase,lowercasse, capitalize*/
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

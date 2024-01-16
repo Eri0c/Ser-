@@ -1,0 +1,51 @@
+
+
+h1{
+    border: 5px solid gainsboro;
+   /* padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+
+    >>>>shorthand<<<<
+    padding: top right bottom left*/
+
+    padding: 50px 25px 50px 25px;
+    /* padding: 25px  quando for o mesmo pixel para os quatro lados
+    */
+
+    /* padding: 100px 50px; >cima- embaixo e esquerda-direita<
+    */
+    /* Margin- distância fora do elemento*/
+    
+    margin-top: 100;
+    margin-right: 100px;
+    margin-bottom: 100;
+    margin-left: 100;
+
+    
+    margin:100px 200px 150px 60px;/*shorthand
+    margin: top right bottom left*/
+    margin: 50px; /* 4 lados iguais*/
+    margin: 100px 50px; /*EB ed*/
+
+    /* Bordas*/
+    border-color: blanchedalmond;
+    border-width: 35px;
+    border-style: outset;/*solid,  dashed, dotted, double*/
+
+
+     border: 25px outset blanchedalmond;
+
+    /*shorthand*/
+
+    border-radius: 10px 20px 
+    30px 40px;
+    border-radius: 35px;
+
+
+    
+
+
+
+}

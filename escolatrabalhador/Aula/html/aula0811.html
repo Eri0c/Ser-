@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de formulário</title>
+</head>
+
+<body>
+    <h1>Tags de formulário</h1>
+    <form>
+        Nome: <input type="text" id="camponome" placeholder="Digite seu nome"><br><br>
+
+        Data de nascimento <input type="date" id="campodtnasc"> <br><br>
+
+        Email: <input type="email" id="campoemail" placeholder="Digite seu email"><br><br>
+
+        <h3>Meus hobbies</h3>
+
+        <input type="checkbox" id="op1" value="Ler">Ler
+        <input type="checkbox" id="op2" value="Dançar">Dançar
+        <input type="checkbox" id="op3" value="Cantar">Cantar
+        <!--TAG class é utilizado para classificar, qauando utilizamos campos iguais
+        TAG id é utilizado para campos diferentes-->
+
+        <h3>Prefiro</h3>
+        <input type="radio" name="comida" value="Pizza"> Pizza
+        <input type="radio" name="comida" value="Chocolate"> Chocolate
+        <input type="radio" name="comida" value="Refrigerante"> Refrigerante
+
+        <!--Utilizamos TAG name para quando o usuário for escolher somente uma opção-->
+
+
+        <h3>Fale sobre você</h3>
+        <textarea name="" id="txtsobremim" cols="30" rows="10"></textarea>
+
+        <h3>Hoje é:</h3>
+        <select name="seletor" id="seletor">
+            <option value="Domingo">Domingo</option>
+            <option value="Segunda-feira">Segunda-feira</option>
+            <option value="Terça-feira">Terça-feira</option>
+            <option value="Quarta-feira">Quarta-feira
+            </option>
+            <option value="Quinta-feira">Quinta-feira</option>
+            <option value="Sexta-feira">Sexta-feira</option>
+            <option value="Sábado">Sábado</option>
+
+            <h3>Envie seu curriculo:</h3>
+            <input type="file" name="arquivo" id="arquivo">
+            <br><br>
+
+            <input type="button" value="Enviar">
+            <input type="submit" value="Enviar">
+            <button>Enviar</button>
+
+
+
+        </select>
+
+    </form>
+    <br>
+
+    <hr>
+    <hr>
+    <h3>Inserindo vídeo</h3>
+
+    <video width="320" height="150" controls>
+        <source src="WhatsApp Video 2022-11-08 at 18.08.16.mp4" type="video/mp4">
+        <!--source src= video.ogg  type=video/ogg-->
+        Seu navegador não suporta esse vídeo.
+    </video>
+    <h3>Inserindo vídeo do youtube</h3>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LTw9akd1F24" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+
+    <h3>Inserindo áudio</h3>
+    <audio controls>
+        <source src="Vaquero Perdido - The Mini Vandals.mp3" type="audio/mpeg">
+        <source src="#" type="audio/ogg">
+        Seu navegador não pode reproduzir esse áudio.
+
+    </audio>
+
+
+    <div>
+        <h3>Download</h3>
+        <a href="apostila-html-css-javascript.pdf" download="apostila"> Clique aqui para baixar a apostila</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

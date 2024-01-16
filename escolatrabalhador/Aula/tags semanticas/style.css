@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;/*box-sizing nao deixa o navegador fazer o cauculo da borda e da margem permitindo que nos alteramos os mesmos*/
+}
+header{
+    padding: 60px;
+    text-align: center;
+    background-color: #7fffd4;
+    color:#ffffff;
+
+}
+nav{
+    display: flex;
+    background-color: rgb(179, 174, 152);
+    
+}
+a{
+    color: black;
+    padding: 20px  20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    transition:0.3s;/*suavisar a transisão*/
+
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    aside{
+        flex:20%;
+        background-color: rgba(218, 208, 189, 0.61);
+        padding: 20px;
+    }
+    main{
+        flex:80%;
+        padding: 20px;
+
+    }
+    main > p{
+        text-align: justify;
+        text-indent: 30px;
+    
+
+    }
+    .imgteste{
+        text-align: center;
+        
+    }
+    img{
+        width: 150px;
+        border: 5px solid black;
+        margin: auto;
+        outline-style: inset;
+        outline-color: rgba(114, 114, 114, 0.281);
+        outline-width: 5px;
+        
+}
+footer{
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 700px){.container, nav{
+    flex-direction: column;
+}
+
+}
+
+
